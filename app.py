@@ -1,19 +1,22 @@
 import streamlit as st
 
-st.title("나무의 페이지에 오신 것을 환영합니다.")
+st.title("환영합니다. 나무의 페이지입니다.")
 st.header("hello world!")
-st.caption("e-mail: hystree0228@gmail.com")
+
+st.write(f" *이곳은 저의 소소한 아이디어를 구현하기 위한 작업공간입니다.*")
+st.write(f" **문의나 의견이 있으시면 아래로 연락주세요.**")
+st.caption("e-mail: hystree0228@naver.com")
 
 
 # st.caption("캡션")
 
 # name = st.text_input("이름을 입력해 주세요.")
 # if name != "" :
-#     #st.write(f"# {name}님 안녕하세요!")
-#     #st.write(f"## {name}님 안녕하세요!")
-#     st.write(f"### {name}님 안녕하세요!")
-#     st.write(f"*{name}님* 안녕하세요!")
-#     st.write(f"**{name}님** 안녕하세요!")
+#     #st.write(f"# {name}님 안녕하세요!")  # 큰 제목
+#     #st.write(f"## {name}님 안녕하세요!") # 중간 제목 
+#     st.write(f"### {name}님 안녕하세요!") # 작은 제목
+#     st.write(f"*{name}님* 안녕하세요!")   # 기울기
+#     st.write(f"**{name}님** 안녕하세요!") # 굵은 글씨
 #     #st.balloons()
 #     st.snow()
 
